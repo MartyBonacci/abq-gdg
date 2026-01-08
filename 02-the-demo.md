@@ -4,29 +4,21 @@ Watch me build a microblogging app (Tweeter) from scratch using just a README an
 
 ## Setup
 
-### Step 1: Clone the Starter Repo
-
-```bash
-git clone https://github.com/MartyBonacci/tweeter-gdg-1.git
-cd tweeter-gdg-1
-```
-
-### Step 2: Create a Mentor Directory
+### Step 1: Create a Mentor Directory
 
 The Mentor Mind needs to see MORE than just the project:
 
 ```bash
-cd ..
 mkdir tweeter-gdg-1-mentor
 cd tweeter-gdg-1-mentor
 ```
 
-Now symlink or copy the project into this directory:
+### Step 2: Clone the Starter Repo
+
+Now clone the repo directly into this directory:
 
 ```bash
-ln -s ../tweeter-gdg-1 tweeter-gdg-1
-# OR
-cp -r ../tweeter-gdg-1 .
+git clone https://github.com/MartyBonacci/tweeter-gdg-1.git
 ```
 
 Your structure should look like:
