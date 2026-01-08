@@ -41,9 +41,11 @@ No worries if you just want to watch — you'll still walk away with the concept
 
 ## The Live Demo
 
-We'll be building a Twitter clone from just a README. The starter is here:
+We'll be building a microblogging app (Tweeter) from just a README using the Mentor Mind pattern.
 
-→ [twitter-clone/](twitter-clone/)
+The starter code repo:
+
+→ [github.com/MartyBonacci/tweeter-gdg-1](https://github.com/MartyBonacci/tweeter-gdg-1)
 
 ---
 
@@ -52,8 +54,14 @@ We'll be building a Twitter clone from just a README. The starter is here:
 **Marty Bonacci**  
 Lead Instructor, Deep Dive Coding • Creator of SpecSwarm • Founder, Custom Cult Snowboards
 
-- [SpecSwarm on Anthropic Marketplace](https://github.com/mbonacci/specswarm)
-- [LinkedIn](https://linkedin.com/in/mbonacci)
+- [SpecSwarm Plugin Marketplace](https://github.com/martybonacci/specswarm)
+- [LinkedIn](https://linkedin.com/in/martybonacci)
+
+---
+
+## Remember to ask about...
+- Mention Advisory Council
+- Call for Pro Dev speakers
 
 ---
 
