@@ -9,7 +9,7 @@ This is a presentation repository for an ABQ Software Social Club / Google Devel
 ## Repository Purpose
 
 This is NOT a traditional code project - it's a presentation framework where:
-- Markdown files in the root define presentation sections (numbered 00-07)
+- Markdown files in the presentation/ directory define presentation sections (numbered 00-07)
 - The talk demonstrates building applications from scratch using Claude Code
 - Live demos show the "Magic Bullet Prompt" technique and SpecSwarm workflow
 - The repository is designed to be followed along with during the presentation or used as a reference afterward
@@ -19,12 +19,12 @@ This is NOT a traditional code project - it's a presentation framework where:
 The presentation covers:
 1. **Context Stacking** - The universal principle behind AI coding tools
 2. **The Mentor Mind** - Using a second Claude Code instance to guide the first
-3. **The Magic Bullet Prompt** - A meta-prompting technique (see `06-magic-bullet-prompt.md`)
+3. **The Magic Bullet Prompt** - A meta-prompting technique (see `presentation/06-magic-bullet-prompt.md`)
 4. **SpecSwarm Integration** - Building projects using the SpecSwarm plugin
 
 ## Magic Bullet Prompt Technique
 
-The file `06-magic-bullet-prompt.md` contains a meta-prompt template for "Mentor Mind" workflows. This technique involves:
+The file `presentation/06-magic-bullet-prompt.md` contains a meta-prompt template for "Mentor Mind" workflows. This technique involves:
 - Opening a second Claude Code instance to act as a mentor/planner
 - Using that instance to generate optimized prompts for the working instance
 - Leveraging SpecSwarm and other tools to build complete projects from READMEs
