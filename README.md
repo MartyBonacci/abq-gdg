@@ -1,70 +1,90 @@
 # Context Stacking & The Mentor Mind
 
-**ABQ Software Social Club / Google Developers Group**  
-January 8, 2026 • Poki Poki Cevicheria
+Learn how to use Claude Code more effectively by understanding context stacking and the Mentor Mind pattern.
 
 ---
 
-## What This Is
+## Watch the Video
 
-This repo is the presentation. Follow along live, or use it later as a reference.
-
-Tonight I'm building an app from scratch using Claude Code while we talk through *why* it works — not just the tools, but the underlying principle that makes AI coding actually useful.
-
----
-
-## Before We Start
-
-If you want to code along, get these set up:
-
-1. [Claude Code Setup](00-setup/claude-code.md)
-2. [SpecSwarm Plugin](00-setup/specswarm.md)
-3. [Chrome DevTools MCP](00-setup/chrome-devtools.md)
-
-No worries if you just want to watch — you'll still walk away with the concepts.
+> **YouTube video coming soon**
+>
+> This repository serves as the reference material for the video. Watch first, then use this repo to dig deeper.
 
 ---
 
-## Tonight's Flow
+## What You'll Learn
 
-| # | Section | What We're Doing |
-|---|---------|------------------|
-| 1 | [Check-In](presentation/01-audience-check-in.md) | What are you using? What's working? What's not? |
-| 2 | [The Demo](presentation/02-the-demo.md) | Clone, prompt, build — watch it happen |
-| 3 | [The Expressibility Gap](presentation/03-expressibility-gap.md) | Why we can't say what we mean (and why that's okay) |
-| 4 | [Context Stacking](presentation/04-context-stacking.md) | Information + capabilities + the cascade effect |
-| 5 | [The Mentor Mind](presentation/05-mentor-mind.md) | Capability awareness — knowing what's possible |
-| 6 | [The Magic Bullet Prompt](presentation/06-magic-bullet-prompt.md) | The prompt I use on every project |
-| 7 | [Resources](presentation/07-resources.md) | Where to go from here |
+- **Context Stacking** — Why some prompts work better than others
+- **The Mentor Mind** — Using two Claude Code instances for better results
+- **The Magic Bullet Prompt** — The template I use on every project
 
 ---
 
-## The Live Demo
+## Quick Start
 
-We'll be building a microblogging app (Tweeter) from just a README using the Mentor Mind pattern.
+Want to try the Mentor Mind pattern right now?
 
-The starter code repo:
+1. **Setup** (if you haven't already):
+   - [Claude Code Setup](00-setup/claude-code.md)
+   - [SpecSwarm Plugin](00-setup/specswarm.md)
+   - [Chrome DevTools MCP](00-setup/chrome-devtools.md)
 
-→ [github.com/MartyBonacci/tweeter-gdg-1](https://github.com/MartyBonacci/tweeter-gdg-1)
+2. **Clone the demo project:**
+   ```bash
+   mkdir tweeter-gdg-1-mentor
+   cd tweeter-gdg-1-mentor
+   git clone https://github.com/MartyBonacci/tweeter-gdg-1.git
+   ```
+
+3. **Open two Claude Code instances:**
+   - Mentor: `tweeter-gdg-1-mentor/`
+   - Developer: `tweeter-gdg-1-mentor/tweeter-gdg-1/`
+
+4. **Use the Magic Bullet Prompt** (in the Mentor instance):
+   ```
+   Please ultrathink and help me write a prompt to give to a Claude Code
+   instance opened in tweeter-gdg-1-mentor/tweeter-gdg-1 to best use
+   SpecSwarm and all other available commands, skills, tools, and
+   resources to build the project described in the README.md file.
+
+   Please use the AskUserQuestion tool to ask any clarifying questions
+   to fill in any missing information that you are not 96% confident
+   about to complete the project.
+   ```
 
 ---
 
-## About Me
+## Reference Material
 
-**Marty Bonacci**  
-Lead Instructor, Deep Dive Coding • Creator of SpecSwarm • Founder, Custom Cult Snowboards
+| # | Topic | Description |
+|---|-------|-------------|
+| 1 | [The Demo](reference/02-the-demo.md) | Step-by-step demo instructions |
+| 2 | [The Expressibility Gap](reference/03-expressibility-gap.md) | Why we can't say what we mean |
+| 3 | [Context Stacking](reference/04-context-stacking.md) | Information + Capability + Cascade |
+| 4 | [The Mentor Mind](reference/05-mentor-mind.md) | The four minds pattern |
+| 5 | [Magic Bullet Prompt](reference/06-magic-bullet-prompt.md) | The template that works every time |
+| 6 | [Resources](reference/07-resources.md) | Links and further reading |
 
-- [SpecSwarm Plugin Marketplace](https://github.com/martybonacci/specswarm)
+---
+
+## Related Repositories
+
+- [tweeter-gdg-1](https://github.com/MartyBonacci/tweeter-gdg-1) — Demo starter project
+- [expressibility-gap](https://github.com/MartyBonacci/expressibility-gap) — Deep dive on the expressibility gap
+- [four-minds-pattern](https://github.com/MartyBonacci/four-minds-pattern) — The complete four minds framework
+
+---
+
+## About
+
+**Marty Bonacci**
+Lead Instructor, Deep Dive Coding • Creator of SpecSwarm
+
 - [LinkedIn](https://linkedin.com/in/martybonacci)
+- [GitHub](https://github.com/MartyBonacci)
 
 ---
 
-## Remember to ask about...
-- Mention Advisory Council
-- Call for Pro Dev speakers
+## Origin
 
----
-
-## Questions?
-
-Grab me after, or find me on LinkedIn. I love talking about this stuff.
+Originally presented at ABQ Software Social Club / Google Developers Group on January 8, 2026.

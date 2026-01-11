@@ -160,7 +160,6 @@ That's the magic bullet.
 
 I used this on 1/8/26
 
-
 Please ultrathink and help me write a prompt to give to a Claude Code instance opened in             
   /home/marty/code-projects/tweeter-gdg-1-mentor/tweeter-gdg-1 to best use specswarm and all other     
   avilable commands, skills, tools and resources to build the project described in the README.md file. 
